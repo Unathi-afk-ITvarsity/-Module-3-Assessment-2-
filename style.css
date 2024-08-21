@@ -1,0 +1,177 @@
+html {
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-image: url('images/background-01-port.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff9f9;
+}
+
+/*========== HOME PAGE ==========*/
+
+#main-name {
+    font-size: 50px;
+    background-color: #DCDCDC;
+    color: white;
+    text-indent: 100px;
+}
+
+#main {
+    margin-top: 40px;
+    height: 70vh;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a h2{
+    background-color: aliceblue;
+}
+
+.main-menu {
+    font-size: 60px;
+    color: goldenrod
+}
+
+.main-starter-with-text h2 {
+    font-family: sans-serif;
+}
+
+.main-starter-with-text p {
+    font-family: serif; 
+    font-size: 15px;
+    margin-top: -10px;
+    font-weight: bold;
+}
+
+.main-main-with-text h2 {
+    font-family: sans-serif;
+}
+
+.main-main-with-text p {
+    font-family: serif;
+    font-size: 12px;
+    margin-top: -10px;
+    font-weight: bold;
+}
+
+.main-drinks-with-text h2 {
+    font-family: sans-serif;
+}
+
+.main-drinks-with-text p {
+    font-family: serif;
+    font-size: 12px;
+    margin-top: -10px;
+    font-weight: bold;
+}
+
+.main-dessert-with-text h2 {
+    font-family: sans-serif;
+}
+
+.main-dessert-with-text p {
+    font-family: serif; 
+    font-size: 12px;
+    margin-top: -10px;
+    font-weight: bold;
+}
+
+hr {
+    height: 2px;
+    background-color: red;
+    border: none;
+    width: 100px;
+    margin-top: 20px
+}
+
+.text {
+    font-family: cursive;
+    padding-top: 10px;
+    
+}
+
+.text img {
+    padding-bottom: 12px;
+    
+}
+
+/*====== Responsive ======*/
+
+     @media only screen and (min-width: 1500px) {
+    #main {
+        width: 80%;
+        margin: 140px auto;
+        font-size: 40px
+    }
+    
+    #main-name {
+        font-size: 70px;
+    }
+    
+    .main-dessert-with-text p{
+        font-size: 25px;
+    }
+    
+    .main-starter-with-text p {
+        font-size: 25px;
+    }
+    
+    .main-drinks-with-text p{
+        font-size: 30px;
+    }
+    
+    .main-main-with-text p {
+        font-size: 30px;
+    }
+    
+    body{
+        height: 80vh;
+        
+    }
+    
+         
+    @media only screen and (min-width: 600px) {
+    #main {
+        width: 80%;
+        margin: 140px auto;
+        font-size: 40px
+    }
+    
+    #main-name {
+        font-size: 70px;
+    }
+    
+    .main-dessert-with-text p{
+        font-size: 25px;
+    }
+    
+    .main-starter-with-text p {
+        font-size: 25px;
+    }
+    
+    .main-drinks-with-text p{
+        font-size: 30px;
+    }
+    
+    .main-main-with-text p {
+        font-size: 30px;
+    }
+    
+    body{
+        height: 80vh;
+        
+    }
+        
+   
+ 
+     
